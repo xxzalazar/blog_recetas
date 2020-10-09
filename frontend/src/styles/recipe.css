@@ -1,0 +1,95 @@
+.recipeCard {
+	height: 600px;
+	width: 300px;
+	border-radius: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	margin-bottom: 4vh;
+	margin-top: 4vh;
+	box-shadow: 0vw 0vw 1vw 0vw rgb(175, 174, 174);
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.recipeCard:hover {
+	opacity: .8;
+}
+
+.recipeCard .picture {
+	height: 50%;
+	width: 100%;
+	background: url('https://assets.bonappetit.com/photos/5f3d6f51b62c45d85d524706/16:9/w_2560,c_limit/HLY-FMC-Corn-Miso-16x9-MH.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 20px 20px 0 0;
+	position: relative;
+}
+
+.recipeCard .picture .avatar {
+	position: absolute;
+	bottom: -30px;
+	right: 15px;
+	border: 4px white solid;
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	background-position: center;
+	background-size: cover;
+	margin: 10px 0 0 10px;
+}
+
+.recipeCard .text {
+	height: 50%;
+	width: 100%;
+	background: white;
+	border-radius: 0 0 20px 20px;
+	display: flex;
+	flex-direction: column;
+	padding: 10px 15px;
+}
+
+.recipeCard .text .title {
+	letter-spacing: 1px;
+	padding-bottom: 5px;
+	width: 80%;
+}
+
+.recipeCard .text .data {
+	border-top: 1px solid lightgray;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 10px;  
+}
+
+.recipeCard .text .data span.number {
+	color: #79d70f;
+	font-weight: bold;
+}
+
+.recipeCard .text .data div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.recipeCard .text .descripcion {
+	margin-top: 10px;
+	font-size: 15px;
+	text-align: center;
+}
+
+.recipeCard .text .btn {
+	margin-top: 15px;
+	border: none;
+	background: #79d70f;
+	padding: 5px;
+	width: 70%;
+	align-self: center;
+	color: white;
+	border-radius: 10px;
+}
